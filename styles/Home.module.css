@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  padding-top: 1rem;
 }
 
 .main {
@@ -92,6 +93,31 @@
   margin: 0;
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+.button {
+  background: #0070f3;
+  border: 1px solid #0070f3;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 @media (max-width: 600px) {
